@@ -9,7 +9,7 @@ if( isset( $_GET[ 'Submit' ] ) ) {
 		case MYSQL:
 			// Check database
 			$query  = "SELECT first_name, last_name FROM users WHERE user_id = '$id';";
-			$result = mysqli_query($GLOBALS["___mysqli_ston"],  $query ); // Removed 'or die' to suppress mysql errors
+			$result = mysqli_query($GLOBALS["___mysqli_ston"],  $query ); // Removed 'or die' to suppress mysql errorss
 
 			$exists = false;
 			if ($result !== false) {
