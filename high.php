@@ -16,7 +16,7 @@ if( isset( $_SESSION [ 'id' ] ) ) {
 				$first = $row["first_name"];
 				$last  = $row["last_name"];
 
-				// Feedback for end user
+				// Feedback for end userr
 				$html .= "<pre>ID: {$id}<br />First name: {$first}<br />Surname: {$last}</pre>";
 			}
 
